@@ -1,8 +1,6 @@
-# Yamato
-ʜᴇʏᴏ! ᴡᴀᴛᴀꜱʜɪ ᴡᴀ ɴᴏ ʏᴀᴍᴀᴛᴏ ᴅᴇꜱᴜ ᴋᴀ 
-ɪ ᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-ʙᴜᴛ ɪ ᴍɪꜱꜱ ᴍʏ ᴏᴅᴇɴ ꜱᴀᴍᴀ ꜱᴏ ɢɪᴠᴇ ᴍᴇ ᴇɴᴏᴜɢʜ ʀɪɢʜᴛꜱ ᴛᴏ ꜱʜᴏᴡ ʏᴏᴜ ᴍʏ ʜᴀᴋɪ
-💖
+# Shanks
+Hᴇʟʟᴏ! I ᴀᴍ Pᴏᴡᴇʀғᴜʟ Wᴀɴᴏ Oғ Oɴᴇ Pɪᴇᴄᴇ
+I ᴡᴀs Mᴀᴅᴇ ʙʏ [•@Shanks_Kun•](https://t.me/Shanks_Kun)
 <p align="center">
   <img src="https://te.legra.ph/file/64104b32c98a8a050633b.jpg">
 </p>
