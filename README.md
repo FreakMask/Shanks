@@ -15,7 +15,7 @@ I ᴡᴀs Mᴀᴅᴇ ʙʏ [•@Shanks_Kun•](https://t.me/Shanks_Kun)
 * Now  Deploy the bot 
 * Start your Bot and enjoy.
 # Deploy to Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Shankssama/Shanks"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku width= "220" Height= "40"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/FreakMask/Shanks"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku width= "220" Height= "40"/></a></p>
 
 
 # Using Lewd Shanks Images Some are Here
