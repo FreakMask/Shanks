@@ -54,7 +54,7 @@ from YamatoRobot.modules.helper_funcs.alternate import typing_action
 from YamatoRobot.modules.helper_funcs.chat_status import is_user_admin
 from YamatoRobot.modules.helper_funcs.misc import paginate_modules
 
-GROUP_START_IMG="https://telegra.ph/file/f272b3d6ddd23dad0f9de.mp4"
+GROUP_START_IMG="https://te.legra.ph/file/5cd8696145e62c079b4ea.mp4"
 HENTAI_START_IMG="https://telegra.ph/file/3481c09762cb1826f8217.jpg"
 
 def get_readable_time(seconds: int) -> str:
@@ -86,7 +86,7 @@ HELP_MSG = "Click the button below to get help manu in your pm."
 START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/1b2a5b6e7da22cff4fdda.mp4) 」────
+────「 [{}](https://te.legra.ph/file/5cd8696145e62c079b4ea.mp4) 」────
 ʜᴇʏᴏ! ᴡᴀᴛᴀsʜɪᴡᴀ ʏᴀᴍᴀᴛᴏ, ɪ ᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.××
 sɪʀ/ᴍᴀ'ᴀᴍ ᴘʟᴇᴀsᴇ ᴛᴇʟʟ ᴍᴇ ᴛʜᴇ ᴡᴀʏ ᴜ ᴡᴀɴᴛ ᴛᴏ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -107,16 +107,16 @@ Haven't slept since: {}
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"Add Yamato To Your Group",
+            text=f"Add To Your Group",
             url=f"t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="ʜᴇɴᴛᴀɪ sᴛᴀʀᴛ", url="t.me/YamatoXRoBot?hstart=hstart"),
+        InlineKeyboardButton(text="ʜᴇɴᴛᴀɪ sᴛᴀʀᴛ", url="t.me/ShanksXRoBot?hstart=hstart"),
         InlineKeyboardButton(text="Check if I m alive! XD ", url="t.me/YamatoXRoBot?halive=halive"),
     ],
     [
-        InlineKeyboardButton(text="ᴋᴀᴢᴜᴛᴏʀᴀ ʜᴀɴᴇᴍɪʏᴀ", url="https://t.me/zerohisoka"),
+        InlineKeyboardButton(text="ᴋᴀᴢᴜᴛᴏʀᴀ ʜᴀɴᴇᴍɪʏᴀ", url="https://t.me/Shanks_kun"),
     ],
 ]
 PM_HENTAI_TEXT="""
@@ -133,7 +133,7 @@ It Has Music too Yuuki 3.0 Blazing Fast Music ✨
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"Add Yamato To Your Group",
+            text=f"Add To Your Group",
             url=f"t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
@@ -144,8 +144,8 @@ buttons = [
         
     ],
     [
-        InlineKeyboardButton(text="Anime Alliance!📺 ", url="https://t.me/straydogs"),
-        InlineKeyboardButton(text="Owner! ", url="https://t.me/zero_hisoka"),
+        InlineKeyboardButton(text="Anime Organization!📺 ", url="https://t.me/Anime_Organization"),
+        InlineKeyboardButton(text="Owner! ", url="https://t.me/Shanks_Kun"),
     ],
         
 
@@ -153,7 +153,7 @@ buttons = [
 
 
     [
-        InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/Bonten_community"),
+        InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/TeamWizardz"),
     ],
 ]
 
@@ -307,7 +307,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="ɴᴇᴛᴡᴏʀᴋ",
-                            url="https://t.me/Bonten_community",
+                            url="https://t.me/TeamWizardz",
                         )
                     ],
                 ]
@@ -381,7 +381,7 @@ def hstart(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs",
-                            url="https://telegram.dog/BoaHancock_Support",
+                            url="https://telegram.dog/Redhair_Support",
                         )
                     ],
                 ]
@@ -519,7 +519,7 @@ def shasa_callback_data(update, context):
     uptime = get_readable_time((time.time() - StartTime))
     if query.data == "shasa_":
         query.message.edit_text(
-            text="""*[ʏᴀᴍᴀᴛᴏ♡](https://t.me/YamatoXRobot)ʜᴇʏᴏ! ᴡᴀᴛᴀsʜɪᴡᴀ ʏᴀᴍᴀᴛᴏ*
+            text="""*[ʏᴀᴍᴀᴛᴏ♡](https://t.me/ShanksXRobot)ʜᴇʏᴏ! ᴡᴀᴛᴀsʜɪᴡᴀ ʏᴀᴍᴀᴛᴏ*
             ɪ ᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.\nᴛʜɪꜱ ɪꜱ ʜᴇɴᴛᴀɪ ꜱᴛᴀʀᴛ!
             ᴜ ᴄᴀɴ ɢᴏ ʙᴀᴄᴋ ᴏʀ ᴄʜᴏᴏꜱᴇ ᴏɴᴇ ᴏꜰ ᴛʜᴇ ᴏᴘᴛɪᴏɴꜱ ʙᴇʟᴏᴡ!
             ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -537,7 +537,7 @@ def shasa_callback_data(update, context):
                     [
                         
                         InlineKeyboardButton(
-                            text="ᴋᴀᴢᴜᴛᴏʀᴀ ʜᴀɴᴇᴍɪʏᴀ", url="https://t.me/zerohisoka"
+                            text="ᴋᴀᴢᴜᴛᴏʀᴀ ʜᴀɴᴇᴍɪʏᴀ", url="https://t.me/Teamwizardz"
                         ),
                     ],
                     [
@@ -550,7 +550,7 @@ def shasa_callback_data(update, context):
         )
     elif query.data == "shasa_basichelp":
         query.message.edit_text(
-            caption="""*[Yamato](https://telegra.ph/file/00409644b0a6b670bc320.jpg)ʜᴇʏᴏ! ᴡᴀᴛᴀsʜɪᴡᴀ ʏᴀᴍᴀᴛᴏ*
+            caption="""*[Shanks](https://telegra.ph/file/00409644b0a6b670bc320.jpg)ʜᴇʏᴏ! ᴡᴀᴛᴀsʜɪᴡᴀ ʏᴀᴍᴀᴛᴏ*
             ɪ ᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.\nᴛʜɪꜱ ɪꜱ ʜᴇɴᴛᴀɪ ꜱᴛᴀʀᴛ!
             ᴜ ᴄᴀɴ ɢᴏ ʙᴀᴄᴋ ᴏʀ ᴄʜᴏᴏꜱᴇ ᴏɴᴇ ᴏꜰ ᴛʜᴇ ᴏᴘᴛɪᴏɴꜱ ʙᴇʟᴏᴡ!
             ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -567,7 +567,7 @@ def shasa_callback_data(update, context):
                     [
                         
                         InlineKeyboardButton(
-                            text="ᴋᴀᴢᴜᴛᴏʀᴀ ʜᴀɴᴇᴍɪʏᴀ", url="https://t.me/zerohisoka"
+                            text="ᴋᴀᴢᴜᴛᴏʀᴀ ʜᴀɴᴇᴍɪʏᴀ", url="https://t.me/TeamWizardz"
                         ),
                     ],
                     [
@@ -616,7 +616,7 @@ def shasa_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", url="t.me/boa_updates"),
+                        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", url="t.me/Redhair_updates"),
                         InlineKeyboardButton(
                             text="ᴠᴄ ʜᴇʟᴘ", url="https://telegra.ph/Shasa-Music-08-15"
                         ),
@@ -626,7 +626,7 @@ def shasa_callback_data(update, context):
                             text="sᴜᴘᴘᴏʀᴛ", url=f"https://telegram.dog/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/BoaHancock_Supoort"
+                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Redhair_Supoort"
                         ),
                     ],
                     [
@@ -644,17 +644,17 @@ def shasa_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴅᴇᴠ", url="t.me/simpleboy786"),
+                        InlineKeyboardButton(text="ᴅᴇᴠ", url="t.me/shanks_kun"),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/Nchuuya"
+                            text="ɢɪᴛʜᴜʙ", url="https://github.com/Shankssama"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠ²", url="https://t.me/zerohisoka"
+                            text="ᴅᴇᴠ²", url="https://t.me/Shanks_Kun"
                         ),
                         InlineKeyboardButton(
-                            text="ʀᴇᴅʟɪᴏɴ", url="https://t.me/boa_updates"
+                            text="ʀᴇᴅʟɪᴏɴ", url="https://t.me/Redhair_updates"
                         ),
                     ],
                     [
